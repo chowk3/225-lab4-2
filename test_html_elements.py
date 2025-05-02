@@ -15,10 +15,7 @@ class TestContacts(unittest.TestCase):
 
     def test_contacts(self):
         driver = self.driver
-        driver.get("http://10.48.10.170")  # Replace with your target website
-        print("=== PAGE SOURCE START ===")
-        print(driver.page_source)
-        print("=== PAGE SOURCE END ===")
+        driver.get("http://10.48.10.139")  # Replace with your target website
 
         # Check for the presence of all 10 test contacts
         for i in range(10):
